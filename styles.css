@@ -6,14 +6,20 @@
   --bs-body-bg: var(--bs-gray-100);
 }
 
-.iframe-container {
+.iframe-navbar-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 60px; /* this totally doesn't worik*/
+}
+
+.iframe-google-form-container {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 1000%;
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -22,4 +28,8 @@
   right: 0;
   width: 100%;
   height: 100%;
+}
+
+.good-spacing {
+  white-space: pre-line
 }
